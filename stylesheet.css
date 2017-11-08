@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/*Francisco Uceda, Main CSS*/
+body{
+    background: url(/resource-images/skyline.png) 0px 600px/1760px auto repeat-x, linear-gradient(top,rgb(150,220,255) 0vh,rgb(25,160,255) 830px,black 830px,black);
+    background: url(/resource-images/skyline.png) 0px 600px/1760px auto repeat-x, -webkit-linear-gradient(top,rgb(150,220,255) 0vh,rgb(25,160,255) 830px,black 830px,black);
+    background: url(/resource-images/skyline.png) 0px 600px/1760px auto repeat-x, -o-linear-gradient(top,rgb(150,220,255) 0vh,rgb(25,160,255) 830px,black 830px,black);
+    background: url(/resource-images/skyline.png) 0px 600px/1760px auto repeat-x, -moz-linear-gradient(top,rgb(150,220,255) 0vh,rgb(25,160,255) 830px,black 830px,black);
+    background-attachment: fixed;
+    font-family: adobe-garamond-pro;
+    font-size:19px;
+}
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+h1{
+    font-family: proxima-nova;
+    color:rgb(25,160,255);
+    text-align:center;
+}
+header{
+    background-color:rgb(25,160,255);
+    position:fixed;
+    font-family:Helvetica;/*Carrois Gothic SC;*/
+    top:0;
+    left:0;
+    width:100%;
+    z-index:3;
+}
+.header-max{
+    width:1000px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    font-size:20px;
+    color:white;
+}
+.header-min{
+    width:1000px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:17px;
+    color:white;
+}
+.navbar{
+    width:650px;
+    list-style-type:none;
+	margin:0;
+    padding:0;
+	position:relative;
+    float:right;
+	vertical-align:middle;
+	line-height:50px;
+	font-weight:700;
+}
+.navbar li{
+	display:inline-block;
+	width:115px;
+	cursor:pointer;
+}
+.navbar a{
+    display:block;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	-o-transition:color .25s ease-out;
+  	-ms-transition:color .25s ease-out;
+  	-moz-transition:color .25s ease-out;
+  	-webkit-transition:color .25s ease-out;
+  	transition:color .25s ease-out;
+}
+.content-wrapper{
+    z-index:0;
+    margin-top:85px;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.slider-wrapper{
+    background-color:white;
+    width:1000px;
+    height:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.slider{
+    width:650px;
+    height:100%;
+    float:right;
+    background-image:url(/page-images/shimmer.jpg);
+    background-size:cover;
+}
+#what-we-do{
+    text-align:center;
+    height:160px;
+    line-height:160px;
+    font-family:proxima-nova;
+    font-size:50px;
+    color:white;
+    background-image:url(page-images/blueprint.jpg);
+    background-position: center center;
+    background-size: 700px;
+}
+#contact{
+    text-align:center;
+    height:160px;
+    line-height:160px;
+    font-family:proxima-nova;
+    font-size:50px;
+    color:white;
+    background-image:url(page-images/gavel.jpg);
+    background-position: center center;
+    background-size: auto 490px;
+}
+.contacts{
+    width:825px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.contact-item{
+    width:400px;
+    height:250px;
+    padding: 5px;
+    text-align:center;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-family: proxima-nova;
+    vertical-align: top;
+}
+.contact-item div{
+    display:block;
+}
+.picture{
+    margin-bottom:10px;
+}
+.contact-title{
+    font-family: proxima-nova;
+    font-size: 30px;
+    color: rgb(25,160,255);
+}
+.contact-info{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.contact-info a{
+    color:rgb(25,160,255);
+}
+.support-item{
+    width:200px;
+    height:200px;
+    padding: 5px;
+    text-align:center;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-family: proxima-nova;
+    vertical-align: top;
+}
+.button{
+    background-color:rgb(25,160,255);
+    width:250px;
+    font-family: proxima-nova;
+    font-size:30px;
+    border-radius:50px;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding:15px;
+    padding-left:40px;
+    padding-right:40px;
+    text-align:center;
+    text-decoration:none;
+    border: 3px solid rgb(25,160,255);
+    -o-transition:background-color .25s ease-out, color .25s ease-out;
+  	-ms-transition:background-color .25s ease-out, color .25s ease-out;
+  	-moz-transition:background-color .25s ease-out, color .25s ease-out;
+  	-webkit-transition:background-color .25s ease-out, color .25s ease-out;
+  	transition:background-color .25s ease-out, color .25s ease-out;
+}
+.button:hover{
+	color:rgb(25,160,255);
+    background-color:rgba(0,0,0,0.0);
+}
+#who-we-are{
+    text-align:center;
+    height:160px;
+    line-height:160px;
+    font-family:proxima-nova;
+    font-size:50px;
+    color:white;
+    background-image:url(page-images/shimmer.jpg);
+    background-position: center center;
+    background-size: 700px;
+}
+#debate{
+    text-align:center;
+    line-height:200px;
+    font-family:proxima-nova;
+    font-size:50px;
+    color:white;
+    background-image:url(page-images/two-debate.png);
+    background-position: center center;
+    background-size: 700px;
+}
+#involved{
+    text-align:center;
+    height:160px;
+    line-height:160px;
+    font-family:proxima-nova;
+    font-size:50px;
+    color:white;
+    background-image:url(/page-images/get-involved.jpg);
+    background-position: center center;
+    background-size:auto 1000px;
+}
+.sidebar{
+    width:350px;
+    height:100%;
+    float:left;
+}
+.sidebar-links{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    width:280px;
+    height:160px;
+    color:white;
+    font-family:Helvetica;
+}
+.sidebar-links ul{
+    list-style-type:none;
+}
+.logo-wrapper{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    top:0;
+}
+.logo{
+    background-color:rgb(60,60,60);
+    border-style:solid;
+    border-width:10px;
+    border-color:black;
+    width:380px;
+    height:470px;
+    top:0;
+    position: absolute;
+    z-index: 2;
+}
+.content{
+    background-color:white;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index:2;
+}
+.centered{
+    text-align:center;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    margin-left:auto;
+    margin-right:auto;
+    top:0;
+    left:0;
+    width:900px;
+    height:485px;
+}
+.text{
+    padding:50px;
+}
+.story{
+    position:relative;
+}
+#our-mission{
+    height:700px;
+}
+#how-to{
+    height:900px;
+}
+.divider{
+    height:20px;
+    /*background-attachment: fixed;*/
+}
+#bluestripes{
+    background:repeating-linear-gradient(45deg, rgb(25,160,255)0,rgb(25,160,255)20px,rgb(50,100,180)20px,rgb(50,100,180)40px);
+    -webkit-backface-visibility: hidden;
+}
+#graystripesnegative{
+    background:repeating-linear-gradient(-45deg, rgb(60,60,60)0,rgb(60,60,60)20px,rgb(70,70,70)20px,rgb(70,70,70)40px);
+    -webkit-backface-visibility: hidden;
+}
+.topic{
+    display: block;
+    width: 800px;
+    height: 100px;
+    font-family: proxima-nova;
+    line-height: 100px;
+}
+.misc{
+    background-color:rgb(230,230,210);
+}
+footer{
+    height:100px;
+    background-color:rgb(60,60,60);
+    padding-bottom:25px;
+    position:relative;
+    width:100%;
+    bottom:0;
+    display:block;
+    vertical-align:bottom;
+}
+.footer{
+    width:1000px;
+    padding-top:25px;
+    color:white;
+    font-family:Carrois Gothic SC;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+}

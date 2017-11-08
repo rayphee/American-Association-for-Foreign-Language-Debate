@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*Francisco Uceda, Mission CSS*/
+.bubble{
+    height:300px;
+    width:300px;
+    border-radius: 300px;
+    text-align:center;
+    font-family:proxima-nova;
+    position: absolute;
+    border: solid 5px;
+}
+.bubble-text{
+    
+}
+#train{
+    background-color:rgba(255,0,0,.33);
+    margin-left:315;
+    top:185px;
+}
+#teach{
+    background-color:rgba(0,255,0,.33);
+    margin-left:295;
+    top:145px;
+}
+#encourage{
+    background-color:rgba(0,0,255,.33);
+    margin-left:275;
+    top:185px;
+}
+#mission{
+    background-color:rgba(255,255,255,1);
+    position:relative;
+    top:170px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gear-text{
+    height:150px;
+    width:150px;
+    border-radius: 300px;
+    text-align:center;
+    font-family:proxima-nova;
+    position: absolute;
+    z-index:2;
+}
+.gear{
+    height:300px;
+    width:300px;
+    border-radius: 300px;
+    text-align:center;
+    font-family:proxima-nova;
+    position: absolute;
+}
+#advantage{
+    left:260px;
+    top:120px;
+}
+#diversity{
+    left:455px;
+    top:310px;
+}
+#sponsor{
+    left:260px;
+    top:520px;
+}
+#volunteer{
+    left:460px;
+    top:705px;
+}
+#advantagegear{
+    background: url(resource-images/gear-1.png) center center/contain no-repeat;
+    left:190px;
+}
+#diversitygear{
+    background: url(resource-images/gear-2.png) center center/contain no-repeat;
+    left:380px;
+    top:200px;
+}
+#sponsorgear{
+    background: url(resource-images/gear-3.png) center center/contain no-repeat;
+    left:190px;
+    top:400px;
+}
+#volunteergear{
+    background: url(resource-images/gear-4.png) center center/contain no-repeat;
+    left:390px;
+    top:590px;
+}
